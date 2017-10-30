@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sphinx index</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+
+<div class="container">
+
+<header>
+    <div id="top_nav">
+        <ul class="showing">
+            <li><a href="index.html">SPHINX CONTINENTAL</a></li>
+            <li><a href="quisommesnous.html">Qui Sommes-nous ?</a></li>
+            <li><a href="partneaires.html">Nos Partenaires</a></li>
+            <li><a href="contact.html">Nous Contactez</a></li>
+        </ul>
+        <div class="handle">Menu<button>&#9776;</button></div>
+    </div>
+
+    <img src="indeximg/logo.JPG" alt="logo area" class="logo">
+
+    <div id="top_nav2">
+        <ul class="showing2">
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="produits.html">Nos Produits Et Services</a></li>
+        </ul>
+        <div class="handle2">Menu<button>&#9776;</button></div>
+    </div>
+
+    <div class="css-carousel">
+    <img src="indeximg/carousel/img01.jpg" class="css-img"/>
+    <img src="indeximg/carousel/img02.jpg" class="css-img"/>
+    <img src="indeximg/carousel/img03.jpg" class="css-img"/>
+    <img src="indeximg/carousel/img04.jpg" class="css-img"/>
+</div>
+</header>
+    <section class="main_side">
+        <article>
+            <header>
+                <h1> De L'innovation Dans La Technologie Africaine</h1>
+                <h2> Chez SPHINX CONTINENTAL nous innovons dans le domaine des technologies d'informations.</h2>
+            </header>
+            <img src="indeximg/img1.jpg">
+        </article>
+
+        <article>
+            <header>
+                <h1> Notre Equipe De Professionnels A Votre Ecoute  </h1>
+                <h2> Chez SPHINX CONTINENTAL nous vous offrons des  services pour personnalisés nos pour votre pleine satisfaction.</h2>
+            </header>
+            <img src="indeximg/img3.jpg">
+        </article>
+
+        <article>
+            <header>
+                <h1> Trouvez Les Meilleurs Solutions Sécuritaires </h1>
+                <h2>Chez SPHINX CONTINENTAL notre objectif est de vous offrir les meilleurs solutions technologiques pour votre organisation.</h2>
+            </header>
+            <img src="indeximg/img2.jpg">
+        </article>
+
+    </section>
+
+
+    <footer class="page_footer">
+
+        <ul>
+            <li><a href="contact.html">Nous Contactez </a></li>
+            <li><a href="partneaires.html">Nos Partenaires</a></li>
+            <li><a href="quisommesnous.html">Qui Sommes-nous</a></li>
+            <li><a href="index.html">SPHINX CONTINENTAL</a>
+                <ul>
+                    <li><a href="produits.html">Nos Produits</a></li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <div class="clear"></div>
+
+        <h3>&copy;2017 SPHINX CONTINENTAL. Tout Droits Réservés.</h3>
+
+    </footer>
+</div>
+<script>
+    $(".handle").on("click", function(){
+        $("#top_nav").find("ul").toggleClass("showing");
+    });
+</script>
+<script>
+    $(".handle2").on("click", function(){
+        $("#top_nav2").find("ul").toggleClass("showing2");
+    });
+</script>
+</body>
+</html>

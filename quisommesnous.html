@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>qui sommes-nous</title>
+    <link rel="stylesheet" href="qui.css" type="text/css">
+    <script src="jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div id="top_nav">
+            <ul class="showing">
+                <li><a href="index.html">SPHINX CONTINENTAL</a></li>
+                <li><a href="quisommesnous.html">Qui Sommes-nous ?</a></li>
+                <li><a href="partneaires.html">Nos Partenaires</a></li>
+                <li><a href="contact.html">Nous Contactez</a></li>
+            </ul>
+            <div class="handle">Menu<button>&#9776;</button></div>
+        </div>
+
+        <img src="quiimg/logo.JPG" alt="logo area" class="logo">
+
+        <div id="top_nav2">
+            <ul class="showing2">
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="produits.html">Nos Produits Et Services</a></li>
+            </ul>
+            <div class="handle2">Menu<button>&#9776;</button></div>
+        </div>
+    </header>
+    <section class="main_side">
+        <article>
+            <header>
+                <h1> Qui Sommes-nous </h1>
+                <h2> SPHINX CONTINENTAL est une équipe.
+                    Une équipe composée de passionné de technologie. Une équipe de talents énergétiques innovants dans les domaines des technologies de l’information.
+                    SPHINX CONTINENTAL est une équipe de professionnel à votre service.
+                </h2>
+            </header>
+        </article>
+        <article>
+            <header>
+                <h1>Notre Mission </h1>
+                <h2> Chez SPHINX CONTINENTAL nous avons une mission; vous offrir les meilleurs solutions technologiques pour votre organisation.
+                    Chez SPHINX CONTINENTAL vous avez des solutions à vos problèmes et faire progresser votre organisation est notre passion.
+                </h2>
+            </header>
+        </article>
+        <article>
+            <header>
+                <h1> Nos Valeurs </h1>
+                <h2>De même que de bonnes valeurs sont primordiales pour la prospérité d’une civilisation. Il en va de même pour une organisation.
+                    Chez SPHINX CONTINENTAL nous mettons l’accent sur trois valeurs clés qui sont à la base de la cohésion de notre équipe:
+                    1. Servir la mission ;
+                    2. Des compétences de classe
+                    mondiale ;
+                    3. Etre à l’écoute du client.
+                </h2>
+            </header>
+        </article>
+    </section>
+    <section class="commite">
+        <article>
+            <header>
+                <h1>Comité Executif</h1>
+            </header>
+            <img src="quiimg/comex.jpg">
+        </article>
+    </section>
+
+    <section class="profile">
+        <article>
+            <img src="quiimg/M.jpg">
+            <h1>MUKE Martin-Roger</h1>
+            <h3>Co-fondateur</h3>
+            <h4> Président Directeur Général</h4>
+        </article>
+        <article>
+            <img src="quiimg/Charles.jpg">
+            <h1>DUBIER Charles</h1>
+            <h3>Co-fondateur</h3>
+            <h4> Directeur Vente</h4>
+        </article>
+        <article>
+            <img src="quiimg/NATH.jpg">
+            <h1>BASHIZI Nathan</h1>
+            <h3>Co-fondateur</h3>
+            <h4> Directeur Expansion</h4>
+        </article>
+    </section>
+
+    <footer class="page_footer">
+
+        <ul>
+            <li><a href="contact.html">Nous Contactez </a></li>
+            <li><a href="partneaires.html">Nos Partenaires</a></li>
+            <li><a href="quisommesnous.html">Qui Sommes-nous</a></li>
+            <li><a href="index.html">SPHINX CONTINENTAL</a>
+                <ul>
+                    <li><a href="produits.html">Nos Produits</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html"></a></li>
+        </ul>
+
+        <div class="clear"></div>
+
+        <h3>&copy;2017 SPHINX CONTINENTAL. Tout Droits Réservés.</h3>
+
+    </footer>
+</div>
+<script>
+    $(".handle").on("click", function(){
+        $("#top_nav").find("ul").toggleClass("showing");
+    });
+</script>
+<script>
+    $(".handle2").on("click", function(){
+        $("#top_nav2").find("ul").toggleClass("showing2");
+    });
+</script>
+</body>
+</html>

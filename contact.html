@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact</title>
+    <link rel="stylesheet" href="contactcss.css" type="text/css">
+    <script src="jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div id="top_nav">
+            <ul class="showing">
+                <li><a href="index.html">SPHINX CONTINENTAL</a></li>
+                <li><a href="quisommesnous.html">Qui Sommes-nous ?</a></li>
+                <li><a href="partneaires.html">Nos Partenaires</a></li>
+                <li><a href="contact.html">Nous Contactez</a></li>
+            </ul>
+            <div class="handle">Menu<button>&#9776;</button></div>
+        </div>
+
+        <img src="quiimg/logo.JPG" alt="logo area" class="logo">
+
+        <div id="top_nav2">
+            <ul class="showing2">
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="produits.html">Nos Produits Et Services</a></li>
+            </ul>
+            <div class="handle2">Menu<button>&#9776;</button></div>
+        </div>
+    </header>
+    <section class="main_side">
+        <article>
+            <header>
+                <img src="contactimg/m.jpg">
+            </header>
+            <h1>  serviceclient@sphinxcontinental.com </h1>
+        </article>
+        <article>
+            <header>
+                <img src="contactimg/cellicon.jpg">
+            </header>
+            <h1> Service Client : 00 243 82 18 74 344  </h1>
+        </article>
+        <article>
+            <header>
+                <img src="contactimg/f.jpg">
+            </header>
+            <h1> <button> &#128269</button> Sphinx continental </h1>
+        </article>
+        <article>
+            <header>
+                <img src="contactimg/lactionicon.jpg">
+            </header>
+            <h1> Kinshasa (RDC) Ngaliema Avenue XXXXXXXX NoX </h1>
+        </article>
+        <article>
+            <header>
+                <img src="contactimg/in.jpg">
+            </header>
+            <h1> Sphinx continental </h1>
+        </article>
+    </section>
+
+
+    <footer class="page_footer">
+
+        <ul>
+            <li><a href="contact.html">Nous Contactez </a></li>
+            <li><a href="partneaires.html">Nos Partenaires</a></li>
+            <li><a href="quisommesnous.html">Qui Sommes-nous</a></li>
+            <li><a href="index.html">SPHINX CONTINENTAL</a>
+                <ul>
+                    <li><a href="produits.html">Nos Produits</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html"></a></li>
+        </ul>
+
+        <div class="clear"></div>
+
+        <h3>&copy;2017 SPHINX CONTINENTAL. Tout Droits Réservés.</h3>
+
+    </footer>
+</div>
+<script>
+    $(".handle").on("click", function(){
+        $("#top_nav").find("ul").toggleClass("showing");
+    });
+</script>
+<script>
+    $(".handle2").on("click", function(){
+        $("#top_nav2").find("ul").toggleClass("showing2");
+    });
+</script>
+</body>
+</html>
